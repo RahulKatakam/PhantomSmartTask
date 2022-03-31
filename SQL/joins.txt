@@ -1,0 +1,21 @@
+LEFT JOIN:
+------------------------------------------------
+SELECT columns
+FROM table1
+LEFT [OUTER] JOIN table2
+ON table1.column = table2.column;
+
+The SQL LEFT OUTER JOIN would return the all records from table1 and only those records from table2 that intersect with table1.
+------------------------------------------------
+
+
+
+RIGHT JOIN:
+-----------------------------------------------
+SELECT columns
+FROM table1
+RIGHT [OUTER] JOIN table2
+ON table1.column = table2.column;
+
+The SQL RIGHT OUTER JOIN would return the all records from table2 and only those records from table1 that intersect with table2.
+------------------------------------------------
